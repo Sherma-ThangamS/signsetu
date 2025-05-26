@@ -25,7 +25,7 @@ A simple, mobile-responsive **Dictionary Application** built using the **MERN st
 - **Frontend**: React.js (with Axios for API calls)
 - **Backend**: Node.js + Express.js
 - **Database**: MongoDB (Mongoose ODM)
-- **Styling**: Tailwind CSS (optional), CSS
+- **Styling**: Tailwind CSS
 
 ---
 
@@ -74,29 +74,29 @@ A simple, mobile-responsive **Dictionary Application** built using the **MERN st
 2. **Install backend dependencies**
 
    ```bash
-   cd backend
+   cd api
    npm install
    ```
 
 3. **Install frontend dependencies**
 
    ```bash
-   cd ../frontend
+   cd client
    npm install
    ```
 
 4. **Start MongoDB**
-   Ensure MongoDB is running on your machine or use MongoDB Atlas.
+   Ensure MongoDB is running on your machine.
 
 5. **Start both servers**
 
-   - Backend (in `/backend`)
+   - Backend (in `/api`)
 
      ```bash
      npm start
      ```
 
-   - Frontend (in `/frontend`)
+   - Frontend (in `/client`)
 
      ```bash
      npm start
