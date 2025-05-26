@@ -67,8 +67,8 @@ A simple, mobile-responsive **Dictionary Application** built using the **MERN st
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/word-dictionary.git
-   cd word-dictionary
+   git clone https://github.com/Sherma-ThangamS/signsetu.git
+   cd singnsetu
    ```
 
 2. **Install backend dependencies**
