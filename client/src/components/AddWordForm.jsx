@@ -17,7 +17,7 @@ const AddWordForm = ({ onSuccess }) => {
     e.preventDefault();
     console.log("submit");
     try {
-      await axios.post("http://localhost:5000/api/word", form);
+      await axios.post("http://localhost:5000/api/words", form);
       setForm({ word: "", definition: "", imageUrl: "", videoUrl: "" });
       onSuccess(); // refresh words
     } catch (err) {
